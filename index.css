@@ -1,0 +1,29 @@
+.debug {
+    border-style: solid;
+    border-color: orangered;
+}
+
+.flex-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex: 40;
+    min-height: 0; /* if remove this line, top will grow as the sub element*/
+}
+
+.top-list {
+    min-height: 50vh;
+    min-width: 90vw;
+}
+
+.bottom {
+    flex: 60;
+}
+
+.overflow-auto {
+    overflow-y: auto;
+}
